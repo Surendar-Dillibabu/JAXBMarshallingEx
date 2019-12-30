@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<employee xsi:schemaLocation="employee-test" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <employeeId>10</employeeId>
+    <employeeName>Surendar</employeeName>
+    <salary>10000</salary>
+    <joiningDate>2019-12-30T13:12:44.299+05:30</joiningDate>
+    <hobbies>
+        <hobby>Cricket</hobby>
+        <hobby>Movies</hobby>
+    </hobbies>
+    <deptId>4</deptId>
+</employee>
