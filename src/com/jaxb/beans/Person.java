@@ -15,11 +15,20 @@ public class Person {
   @XmlElement(name = "hobby")
   private List<String> hobbies;
 
+  public Person() {
+  }
+
+  public Person(List<String> hobbies) {
+    this.hobbies = hobbies;
+  }
+
   public List<String> getHobbies() {
+    System.out.println("getter");
     return hobbies;
   }
 
   public void setHobbies(List<String> hobbies) {
+    System.out.println("setter");
     this.hobbies = hobbies;
   }
 

@@ -11,8 +11,7 @@ import com.jaxb.beans.Person;
 public class JAXBMarshallExForPerson {
 
   public static void main(String[] args) {
-    Person person = new Person();
-    person.setHobbies(Arrays.asList("Cricket", "Movies"));
+    Person person = new Person(Arrays.asList("Cricket", "Movies"));
     marshall(person);
     System.out.println("Marshalling completed");
     Person person1 = unMarshall();
